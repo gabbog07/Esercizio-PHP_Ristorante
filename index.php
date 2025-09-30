@@ -72,9 +72,7 @@ $ip_cliente = $_SERVER["REMOTE_ADDR"];
                     </p> 
                     <p> 
                         Curiosità digitale: la tua richiesta ci è arrivata dall’indirizzo 
-                        <strong>
-                            <?php echo $ip_cliente; ?>
-                        </strong>. 
+                            <?php echo $ip_cliente; ?> 
                     </p> 
                     <a href="" class="back-button">
                         <button>Torna al modulo</button>
